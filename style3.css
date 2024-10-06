@@ -1,0 +1,16 @@
+body{
+    background-color: antiquewhite;
+    align-content: flex-start;
+    display: flex;
+    
+
+}
+.Section{
+    background-color: aqua;
+    font-weight: 200;
+    justify-content: flex-start;
+    font-size: medium;
+    display: grid;
+    
+
+}
