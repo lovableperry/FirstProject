@@ -1,16 +1,92 @@
-body{
-    background-color: antiquewhite;
+.body{
+    background-color: rgb(253, 252, 251);
+    justify-content: flex-start;
     align-content: flex-start;
     display: flex;
+    box-sizing:border-box;
+    
+
+
+
     
 
 }
 .Section{
-    background-color: aqua;
-    font-weight: 200;
+    background-color: 
+    #088dec;
+    font-weight: 100;
+    flex-direction: column;
     justify-content: flex-start;
     font-size: medium;
-    display: grid;
+    display:flex;
+    align-items: flex-start;
+    padding-bottom: 10px;
+  
+
+}
+.header{
+    font-size: medium;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+      
+
+}
+.Shop{
+    background-color: #004366;
+    display: flex;
+    align-content:first baseline center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    font-weight: 200;
+    font-style: normal;
+    font-size: larger;
+    flex-direction: column;
+
+    padding-bottom: 10px;
+    color: rgb(255, 255, 255);
+
+}
+.steps{
+    font:100 sans-serif;
+    height: 055px;
+    font-size: 20px;
+
+
+}
+.sign{
+    box-sizing: content-box;
+    background-position: center;
+    display: flex;
     
+
+}
+.product{
+    background-color: rgb(255, 255, 240);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.box{
+    display: flex;
+    justify-items: flex-start;
+    align-items: flex-start; 
+    border-bottom: #088dec solid;
+    box-sizing:border-box;
+
+
+    
+}
+.box{
+    display: -ms-flexbox;
+    grid: 10cm;
+    justify-content: left;
+    align-content: left;
+    flex-direction: row;
+    float: inline-start;
+    justify-items: left;
+    align-items: start;
 
 }
