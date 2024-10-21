@@ -4,11 +4,16 @@
     align-content: flex-start;
     display: flex;
     box-sizing:border-box;
-    
+    padding: 0;
+    margin: 0;
 
 
+}
+body,html{
+    margin: 0;
+    padding: 0;
 
-    
+
 
 }
 .Section{
@@ -55,10 +60,17 @@
 
 
 }
+
 .sign{
     box-sizing: content-box;
     background-position: center;
     display: flex;
+    color: #fcfafa;
+    background-color: rgb(241, 121, 34);
+    border: none;
+    padding: 10px;
+    margin: 0 auto;
+   
     
 
 }
@@ -69,18 +81,45 @@
     align-content: center;
 
 }
+
+
+
 .box{
-    display: flex;
-    justify-items: flex-start;
-    align-items: flex-start; 
-    border-bottom: #088dec solid;
-    box-sizing:border-box;
+    display: inline;
+    box-shadow: none;
+    justify-content: left;
+    align-content: left;
+    flex-direction: row;
+    float: inline-start;
+    justify-items: left;
+    align-items: start;
+    padding: 20px;
+   
+
 
 
     
 }
-.box{
-    display: -ms-flexbox;
+img{
+    width: 100%;
+    height: 50px ;
+   
+    
+    
+
+}
+.bb{
+    background-color: #1983d0;
+    color: #fdfcfc;
+    padding: 0;
+    margin: 0 auto;
+    border: none;
+    width: 100%;
+    height: 20px ;
+
+}
+.boxS{
+    display: inline;
     grid: 10cm;
     justify-content: left;
     align-content: left;
@@ -88,5 +127,44 @@
     float: inline-start;
     justify-items: left;
     align-items: start;
+    padding: 20px;
+
+}
+img{
+    height: 50px;
+    width: 100%;
+    color: #11217a;
+    padding: 0;
+
+
+}
+.nike{
+    border:none;
+    background-color: #1983d0;
+    height: 20px;
+    padding: 3px;
+    
+
+
+}
+.boxJ{
+    display: inline;
+    justify-content: left;
+    align-content: space-between;
+    grid: 10cm;
+    align-content: left;
+    flex-direction: row;
+    float: inline-start;
+    justify-items: left;
+    align-items: start;
+    padding: 20px;
+
+}
+.price{
+    color: #f1f1f4;
+    background-color: #088dec;
+    border: none;
+    
+
 
 }
